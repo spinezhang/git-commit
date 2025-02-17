@@ -1,0 +1,15 @@
+.DS_Store
+
+build/
+build_dist/
+dist/
+venv
+venv_dev
+git_commit.egg-info/
+
+.idea/
+.qodo/
+.vscode/
+..pytest_cache/
+
+
