@@ -128,7 +128,7 @@ def generate_commit_message(changes: List[Tuple[str, str, str]]) -> str:
     # ai_server = os.getenv('AI_SERVER', 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions')
     # ai_model = os.getenv('AI_MODEL', 'deepseek-r1-distill-qwen-7b')
     ai_server = os.getenv('AI_SERVER', 'http://192.168.125.80:11434/v1/chat/completions')
-    ai_model = os.getenv('AI_MODEL', 'deepseek-r1:32b')
+    ai_model = os.getenv('AI_MODEL', 'deepseek-r1:70b-llama-distill-q4_K_M')
     
     # headers = {'Authorization': f"Bearer {api_key}"}
     response = requests.post(
